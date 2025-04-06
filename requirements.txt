@@ -8,3 +8,4 @@ pandas
 geobr
 geopandas
 unidecode
+streamlit-folium
