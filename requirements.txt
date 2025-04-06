@@ -1,4 +1,8 @@
 streamlit
+streamlit_option_menu
+numpy
+seaborn
+matplotlib.pyplot
 folium 
 pandas
 geobr
