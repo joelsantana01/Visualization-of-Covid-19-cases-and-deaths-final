@@ -2,10 +2,9 @@ streamlit
 streamlit_option_menu
 numpy
 seaborn
-matplotlib.pyplot
+matplotlib
 folium 
 pandas
 geobr
 geopandas
 unidecode
-numpy
