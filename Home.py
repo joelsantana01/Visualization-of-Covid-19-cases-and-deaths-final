@@ -8,6 +8,7 @@ from unidecode import unidecode
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from streamlit_folium import folium_static
 
 
 obitos =pd.read_csv("obitos_filtrado.csv")
@@ -438,7 +439,6 @@ elif choose == "Mapas Interativos":
 
 
     # Exibir o mapa
-    from streamlit_folium import folium_static
     folium_static(mapa_bahia, width=1000)   
         
         
