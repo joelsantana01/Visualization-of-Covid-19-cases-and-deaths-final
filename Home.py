@@ -204,8 +204,8 @@ st.set_page_config(page_title="Página Principal", page_icon="📊", layout="wid
 
 
 with st.sidebar:
-    choose = option_menu("", ["Home", "Mapas Interativos", "Séries Temporais", "Sobre o Autor"],
-                         icons=['house', 'map', 'graph-up', 'person'],
+    choose = option_menu("", ["Home", "Mapas Interativos", "Séries Temporais","Mapas Espaço-Temporais", "Sobre o Autor"],
+                         icons=['house', 'map', 'graph-up','map', 'person'],
                          default_index=0,
                          orientation="vertical",  
                          styles={
@@ -543,7 +543,8 @@ elif choose == "Séries Temporais":
         st.write("Não há dados para exibir. Verifique os filtros aplicados.")
 
        
-
+elif choose == "Mapas Espaço-Temporais":
+    st.title("Mapas Espaço-Temporais")
 
 
     
