@@ -205,7 +205,7 @@ st.set_page_config(page_title="Página Principal", page_icon="📊", layout="wid
 
 with st.sidebar:
     choose = option_menu(
-        menu_title="",  # remove o título
+        menu_title="",
         options=["Home", "Mapas Interativos", "Séries Temporais", "Mapas Espaço-Temporais", "Sobre o Autor"],
         icons=['house', 'map', 'graph-up', 'map', 'person'],
         default_index=0,
@@ -213,22 +213,22 @@ with st.sidebar:
         styles={
             "container": {
                 "padding": "5!important",
-                "background-color": "#f4f4f9"
+                "background-color": "#2b2b3d"
             },
             "icon": {
-                "color": "#007f7f",  # azul petróleo
-                "font-size": "25px"
+                "color": "#b00020",  # Vermelho bordô (seriedade)
+                "font-size": "24px"
             },
             "nav-link": {
                 "font-size": "16px",
                 "text-align": "left",
                 "margin": "0px",
-                "--hover-color": "#e0f7fa"
+                "--hover-color": "#3a3a4f"  # Hover escuro
             },
             "nav-link-selected": {
-                "background-color": "#00b894",  # verde clínico
-                "font-weight": "bold",
-                "color": "white"
+                "background-color": "#b00020",
+                "color": "white",
+                "font-weight": "bold"
             },
         },
         key="menu"
