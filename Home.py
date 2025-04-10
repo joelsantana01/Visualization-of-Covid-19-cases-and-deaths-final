@@ -204,16 +204,35 @@ st.set_page_config(page_title="Página Principal", page_icon="📊", layout="wid
 
 
 with st.sidebar:
-    choose = option_menu("", ["Home", "Mapas Interativos", "Séries Temporais","Mapas Espaço-Temporais", "Sobre o Autor"],
-                         icons=['house', 'map', 'graph-up','map', 'person'],
-                         default_index=0,
-                         orientation="vertical",  
-                         styles={
-                             "container": {"padding": "5!important", "background-color": "#fafafa"},
-                             "icon": {"color": "orange", "font-size": "25px"},
-                             "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "--hover-color": "#eee"},
-                             "nav-link-selected": {"background-color": "#02ab21"},
-                         }, key="menu")
+    choose = option_menu(
+        menu_title="",  # remove o título
+        options=["Home", "Mapas Interativos", "Séries Temporais", "Mapas Espaço-Temporais", "Sobre o Autor"],
+        icons=['house', 'map', 'graph-up', 'map', 'person'],
+        default_index=0,
+        orientation="vertical",
+        styles={
+            "container": {
+                "padding": "5!important",
+                "background-color": "#f4f4f9"
+            },
+            "icon": {
+                "color": "#007f7f",  # azul petróleo
+                "font-size": "25px"
+            },
+            "nav-link": {
+                "font-size": "16px",
+                "text-align": "left",
+                "margin": "0px",
+                "--hover-color": "#e0f7fa"
+            },
+            "nav-link-selected": {
+                "background-color": "#00b894",  # verde clínico
+                "font-weight": "bold",
+                "color": "white"
+            },
+        },
+        key="menu"
+    )
 
 
 
