@@ -213,20 +213,20 @@ with st.sidebar:
         styles={
             "container": {
                 "padding": "5!important",
-                "background-color": "#2b2b3d"
+                "background-color": "#f3f4f6"
             },
             "icon": {
-                "color": "#b00020",  # Vermelho bordô (seriedade)
+                "color": "#d64545",  # Vermelho suave
                 "font-size": "24px"
             },
             "nav-link": {
                 "font-size": "16px",
                 "text-align": "left",
                 "margin": "0px",
-                "--hover-color": "#3a3a4f"  # Hover escuro
+                "--hover-color": "#f1ece6"
             },
             "nav-link-selected": {
-                "background-color": "#b00020",
+                "background-color": "#d64545",
                 "color": "white",
                 "font-weight": "bold"
             },
