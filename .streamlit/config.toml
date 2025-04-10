@@ -1,6 +1,5 @@
 [theme]
-primaryColor = "#d64545"              # Vermelho suave (impactante, mas elegante)
-backgroundColor = "#fdfaf6"           # Bege claro e neutro
-secondaryBackgroundColor = "#f3f4f6"  # Branco gelo (ótimo para containers)
-textColor = "#2d2d2d"                 # Grafite escuro
-font = "sans serif"
+primaryColor = "#00b894"       
+backgroundColor = "#f4f4f9"      
+secondaryBackgroundColor = "#f4f4f9"  
+textColor = "#333333"             
